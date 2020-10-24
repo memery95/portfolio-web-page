@@ -1,0 +1,54 @@
+/* Set all margin and padding to zero  */
+body{
+  margin: 0;
+  padding: 0;
+}
+/* class for the header section */
+.hd-center, .hd-center h1, .hd-center p{
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #99002C;
+  color: #D2D2D2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Increasing the font size of the h1 element */
+.hd-center h1{
+  font-size: 58px;
+}
+/* adding padding to the top and bottom for the main and changing the background color */
+main{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #D2D2D2;
+}
+/* center class for the content within the div */
+.center{
+  margin: auto;
+  width: 50%;
+}
+/* CSS for the image */
+img{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 15px;
+}
+/* setting the font family for the web page */
+p, h2, h3, li{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* removing the margin off of the ordered list within the foot class */
+.foot ol{
+  margin: 0;
+}
+/* style link for the links at the bottom of the page */
+a:hover{
+  color: green;
+}
+
+a:visited{
+  color: #99002C;
+}
